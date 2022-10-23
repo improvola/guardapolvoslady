@@ -1,36 +1,81 @@
-TELA:
+HTML CON BOOTSTRAP/BOOTSWATCH - MINTY 
+DESCARGANDO Y CONFIGURANDO COLORES DEL ARCHIVO BOOTSTRAP.CSS
+ --bs-secondary: #F4A1DB; --bs-secondary-rgb: 252, 140, 227;
+ --bs-info: #F577FD; --bs-info-rgb: 245, 119, 253;
+Y así con sus colores respectivos a cada atributo y componente.
 
+ENCABEZADOS:
+Deben estar claros y en mayúsculas.
+Los colores a utilizar son Neon (claro con sombras).
+Deben estar centrados en medio de la página.
+
+
+CARROUSEL:
+En automático.
+Se muestran contenidos de novedad, ofertas y descuentos.
+Los tamaños de las imágenes deben ser de 1325px x 218px.
+Las etiquetas se conocerán como "carrousel1", "carrousel2, "carrousel3".
+Las imágenes se guardarán como "carrousel1", "carrousel2, "carrousel3" en formato PNG o JPG.
+
+CARDS:
+Alineados centralmente.
+Modo OUTLINE - BORDER (color INFO)
+Adjunto con imagen de modelo de guardapolvos fondo transparente.
+Las imágenes deben estar en alta resolución en formato PNG o JPG tamaño 1080x1080px
+Nombre del modelo en mayusculas. Ej: TIRADORES
+Descripción breve y concisa
+Boton COMPRAR (color SECONDARY)
+Boton Shopping Cart en PNG tamaño máximo 45px.
+
+
+Footers:
+Logo de LadyGuardapolvos.
+Botones de las redes sociales:
+@guardapolvoslady
+/guardapolvoslady
+Link de whatsapp para comprar directamente.
+
+Icono de "ARROW UP" (flecha hacia arriba) para regresar al inicio de la página.
+COLORES DEL FOOTER: 
+VIOLETA OSCURO FONDO (#5f255b)
+LETRAS CLARAS (#d995e0)
+
+////////////// BASE DE DATOS /////////////////////////
+COLORES DE TELAS:
 -BLANCO
 -AZUL
 -JEAN
 
-TALLES 
-1 2 3 4 > TALLE ESPECIAL EN FORMULARIO CONTACTO 
+TALLES: 
+-1
+-2
+-3
+-4 < TALLE ESPECIAL EN FORMULARIO CONTACTO 
 
-MODELOS 
-
-01TIRADORES 
-02ELISA 
-03CLASICO 
-04JUMPER
-05ELISA ASIMETRICO
-06TIRADORES ASIMETRICO
-
-----------------
-6 modelos 
-4 TALLES 
-----------------
+MODELOS: 
+01-TIRADORES 
+02-ELISA 
+03-CLASICO 
+04-JUMPER
+05-ASIMETRICOS
 
 COLORES DE CINTAS  
-rojo, 
-turquesa, 
-violeta, 
-negro con puntitos, 
-blanco con puntitos, 
-verde, 
-naranja
+A- rojo
+B- turquesa
+C- violeta
+D- negro con puntitos
+E- blanco con puntitos 
+F- verde 
+G- naranja
 
-(a), (b), (c), (d)...
+----------------
+TOTAL BDD
+5 MODELOS 
+4 TALLES
+7 COLORES CINTAS
+----------------
+
+
 
 
 
