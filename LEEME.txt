@@ -1,0 +1,36 @@
+TELA:
+
+-BLANCO
+-AZUL
+-JEAN
+
+TALLES 
+1 2 3 4 > TALLE ESPECIAL EN FORMULARIO CONTACTO 
+
+MODELOS 
+
+01TIRADORES 
+02ELISA 
+03CLASICO 
+04JUMPER
+05ELISA ASIMETRICO
+06TIRADORES ASIMETRICO
+
+----------------
+6 modelos 
+4 TALLES 
+----------------
+
+COLORES DE CINTAS  
+rojo, 
+turquesa, 
+violeta, 
+negro con puntitos, 
+blanco con puntitos, 
+verde, 
+naranja
+
+(a), (b), (c), (d)...
+
+
+
