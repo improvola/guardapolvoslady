@@ -78,6 +78,42 @@ TOTAL BDD
 ----------------
 
 
+DISEÑO DE INTERFAZ
+Contamos con tres sitios principales: INICIO, PRODUCTOS, CONTACTO.
+Cada uno dispone de un header, body, y footer. En el header tendremos un carrusel que figurará todas las promociones y novedades que tenga la marca. 
+En el body tendremos el contenido correspondiente a cada sección, ya sean productos, guías para el usuario e imágenes ilustrativas de referencia.
+En el footer figurarán todas las formas de contactos para una mejor comunicación para el usuario, como redes sociales y números telefónicos.
+
+MÉTODO QUE CONSIDERAMOS EN EL DISEÑO
+¿Por qué elegimos este diseño? Porque hace relación a la estética de la marca.
+COLORES: Lady Guardapolvos maneja una paleta de colores en tonos rosas y pasteles.  
+OPCIONES: Contamos con la página de **Inicio, donde se presentan principalmente qué es lo que se vende, novedades, promociones y los artículos en sí a la venta. Tenemos una guía informativa para el usuario acerca de **Cómo comprar el producto con sus pasos específicos y una **Tabla de Talles para que el mismo pueda saber qué artículo elegir. También contamos con la página de **Contactos para que el usuario pueda comunicarse con el vendedor sobre algún tema en particular disponible en las opciones de formulario. Finalmente, en cada diseño del sitio, obtendremos un FOOTER con toda la información necesaria para que el usuario pueda comunicarse con el cliente/vendedor.
+Este diseño está maquetado para que sea de forma intuitiva a la hora de implementarlo.
+
+HERRAMIENTAS
+¿Qué herramientas usamos?
+Visual Studio Code -> HTML, CSS, JavaScript, PHP
+XAMPP -> Base de Datos por MySQL
+Photoshop/Paint.NET -> p/ los artículos en venta en exposición de los cards
+GitHub -> Herramienta para poder documentar, programar y comunicar entre los colaboradores de forma grupal
+
+DOCUMENTACIÓN
+Github -> archivos (.txt)
+ tecnologias que usamos, si utilizamos bdd, si cual, por que, si es relacional o no relacional 
+
+USABILIDAD
+**** ARMAR UN PLAN DE PRUEBA PARA VER QUE FUNCIONA Y QUE NO ****
+qué probamos
+
+
+IMPLEMENTACIÓN Y TIPOS DE MANTENIMIENTO
+Tipo de implementación: TOTAL 
+Actualmente estamos en la etapa de INSTALACION, próximo a elaborar MANUAL DE USUARIO (de procesos)
+
+Tipo de mantenimiento: DE CONSERVACION 
+De forma CORRECTIVA e INMEDIATA
+y PREVENTIVA para un modo PREDICTIVO
+
 
 
 
