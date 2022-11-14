@@ -94,22 +94,19 @@ XAMPP -> Base de Datos por MySQL
 Photoshop/Paint.NET -> p/ los artículos en venta en exposición de los cards
 GitHub -> Herramienta para poder documentar, programar y comunicar entre los colaboradores de forma grupal
 
-DOCUMENTACIÓN
-Github -> archivos (.txt)
- tecnologias que usamos, si utilizamos bdd, si cual, por que, si es relacional o no relacional 
-
 USABILIDAD
 **** ARMAR UN PLAN DE PRUEBA PARA VER QUE FUNCIONA Y QUE NO ****
-qué probamos
+Armamos un plan de prueba para ver qué funciona y qué no PLAN DE PRUEBA. 
+En base a los resultados obtenidos podemos decir que en general hay un correcto funcionamiento del sitio web. 
+Es posible utilizarlo como catálogo online para ver todos los productos y sus precios. Y también se facilita la comunicación con el vendedor a través del botón de Whatsapp y sus redes sociales.
 
 
 IMPLEMENTACIÓN Y TIPOS DE MANTENIMIENTO
-Tipo de implementación: TOTAL 
-Actualmente estamos en la etapa de INSTALACION, próximo a elaborar MANUAL DE USUARIO (de procesos)
+Tipo de implementación: TOTAL.
+Actualmente estamos en la etapa de ELABORACIÓN DE MANUAL DE USUARIO Y MANTENIMIENTO CORRECTIVO.
 
-Tipo de mantenimiento: DE CONSERVACION 
-De forma CORRECTIVA e INMEDIATA
-y PREVENTIVA para un modo PREDICTIVO
+Tipo de mantenimiento de CONSERVACIÓN, de forma CORRECTIVA la corrección de errores es INMEDIATA o DIFERIDA dependiendo del error.
+
 
 
 OBSERVACIONES DE LA PRIMERA PRESENTACION 
