@@ -28,7 +28,6 @@ Descripción breve y concisa
 Boton COMPRAR (color SECONDARY)
 Boton Shopping Cart en PNG tamaño máximo 45px.
 
-
 Footers:
 Logo de LadyGuardapolvos.
 Botones de las redes sociales:
@@ -46,7 +45,6 @@ TECNOLOGIA: PHP en base de datos. TABLA SQL
 COLORES DE TELAS:
 -BLANCO
 -AZUL
--JEAN
 
 TALLES: 
 -1
@@ -76,7 +74,6 @@ TOTAL BDD
 4 TALLES
 7 COLORES CINTAS
 ----------------
-
 
 DISEÑO DE INTERFAZ
 Contamos con tres sitios principales: INICIO, PRODUCTOS, CONTACTO.
