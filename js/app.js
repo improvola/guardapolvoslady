@@ -3,6 +3,6 @@ function show() {
   console.log("Has sumado al carrito");
 }
 
-$(".size").on('click', function(){
-    $(this).toggleClass('focus').siblings().removeClass('focus');
- })
+//$(".size").on('click', function(){
+//    $(this).toggleClass('focus').siblings().removeClass('focus');
+// })
