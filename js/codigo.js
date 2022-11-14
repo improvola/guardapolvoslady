@@ -7,6 +7,7 @@ function apretar(){
     count+=1;
     console.log(count);
     algo.textContent = count;
+    alert("Has sumado al carrito este producto!");
 }
 
     // element.addEventListener('click', function(){
