@@ -1,5 +1,6 @@
 function show() {
-  alert("You clicked on the button, so it triggered the alert box");
+  alert("Has sumado al carrito");
+  console.log("Has sumado al carrito");
 }
 
 $(".size").on('click', function(){
