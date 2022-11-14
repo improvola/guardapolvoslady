@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Parcial</title>
 </head>
-<body id="arriba">
+<body id="up">
     <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary" style="padding: 1rem;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="img/guardapolvo.png" alt="lady-logo" style="max-width: 50px;"></a>
@@ -50,100 +50,141 @@
       <!-- BOTON WHATSAPP -->
       <br><a class="whatsapp" href="https://walink.co/adbb51" target="_blank"><img src="https://icones.pro/wp-content/uploads/2021/02/icone-du-logo-whatsapp-rose.png" alt="whatsapp-boton" style="max-width: 70px;"></a>
 
-      <!-- TABLA DE TALLES -->
-      <div align="center">
-      <img src="img/tabla-talles.png" alt="tabla-de-talles" style="max-width: 50%;">
-      </div>
+    <!-- BOTON SPOILER -->
+        <div align="center">
+        <div class="divspoiler">
+         <input id="spoilerbuton" type="button" value="Tabla de talles" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; this.value = 'Ocultar'; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none'; this.value = 'Mostrar Tabla'; }" />
+         </div><div><div class="spoiler"  style="display: none;">
+    <!-- TABLA DE TALLES -->
+        <img src="img/tabla-talles.png" alt="tabla-de-talles" style="max-width: 50%;">
+        </div>
+    </div>
+</div>
+    <br>
+<!-- FIN BOTON SPOILER -->
+<br>
+   </div>
+
       <!-- ========================================================================== -->
 
       <!-- INICIO PRODUCTOS -->
     <!-- ****** DIV ALINEADOR *********-->
     <div align="center">
+            <section>
+      <div class="container" align="center">
+      <p class="text-info">CONOCE NUESTROS PRODUCTOS</p>
+      <br>
 
-      <!-- PRIMERAS 4 CARDS -->
-      <div class="row row-cols-1 row-cols-md-4 g-4" style="margin: auto auto;">
-        <div class="col">
-            <div class="card border-info mb-4" style="max-width: 20rem;">
-            <img src="img/modelo.png" class="card-img-top" alt="guardapolvo1" style="max-width: 20rem;">
-            <div class="card-body">
-              <h5 class="card-title">TIRADORES</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-outline-secondary">Comprar</button> <a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-            <div class="card border-info mb-4" style="max-width: 20rem;">
-            <img src="img/modelo1.png" class="card-img-top" alt="guardapolvos-2" style="max-width: 20rem; max-height: 20rem;" >
-            <div class="card-body">
-              <h5 class="card-title">ELISA</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card border-info mb-4" style="max-width: 20rem;">
-          <img src="img/modelo3.png" class="card-img-top" alt="guardapolvos-3" style="max-width: 20rem; max-height: 20rem;" >
-          <div class="card-body">
-            <h5 class="card-title">CLASICO</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
-          </div>
-        </div>
-      </div>
-         <div class="col">
-            <div class="card border-info mb-4" style="max-width: 20rem;">
-            <img src="img/modelo.png" class="card-img-top" alt="guardapolvo1" style="max-width: 20rem;">
-            <div class="card-body">
-              <h5 class="card-title">JUMPER </h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-outline-secondary">Comprar</button> <a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
-            </div>
-          </div>
-        </div>
-    
+ <!-- PRIMERA SECCION CARDS-->
+  
+ <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: auto auto;">
+  <div class="col">
+      <div class="card border-info mb-4" style="max-width: 20rem;">
+     <a href="asimetricoazul.html"> <img src="img/modelo.png" class="card-img-top" alt="guardapolvo1-asimetrico-azul" style="max-width: 20rem;"></a>
+      <div class="card-body">
+        <h5 class="card-title">ASIMETRICO AZUL</h5>
+        <p class="card-text">Con tirador del lado derecho y cierre frontal. Bolsillos combinados y laterales. En tela Arciel Azul.<br><br></p>
+        <button type="button" class="btn btn-outline-secondary">Comprar</button> <a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
       </div>
     </div>
-    <!-- ======================================== -->
-
-    <!-- SEGUNDA FILA DE CARDS -->
-    <div class="row row-cols-1 row-cols-md-4 g-4" style="margin: auto auto;">
-        <div class="col">
-            <div class="card border-info mb-4" style="max-width: 20rem;">
-            <img src="img/modelo.png" class="card-img-top" alt="guardapolvo1" style="max-width: 20rem;">
-            <div class="card-body">
-              <h5 class="card-title">ASIMETRICOS</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-outline-secondary">Comprar</button> <a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-            <div class="card border-info mb-4" style="max-width: 20rem;">
-            <img src="img/modelo1.png" class="card-img-top" alt="guardapolvos-2" style="max-width: 20rem; max-height: 20rem;" >
-            <div class="card-body">
-              <h5 class="card-title">JUMPER LSA</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
-            </div>
-          </div>
-        </div>
-<!--         <div class="col">
-          <div class="card border-info mb-4" style="max-width: 20rem;">
-          <img src="img/modelo3.png" class="card-img-top" alt="guardapolvos-3" style="max-width: 20rem; max-height: 20rem;" >
-          <div class="card-body">
-            <h5 class="card-title">ELISA AZUL</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
-          </div>
-        </div>
-      </div> -->
-
+  </div>
+  <div class="col">
+      <div class="card border-info mb-4" style="max-width: 20rem;">
+        <a href="elisaazul.html"><img src="img/modelo-12.png" class="card-img-top" alt="guardapolvos-12-elisa-azul" style="max-width: 20rem; max-height: 20rem;" ></a>
+      <div class="card-body">
+        <h5 class="card-title">ELISA AZUL </h5>
+        <p class="card-text">Modelo "Elisa" combinado con cierres y cintas de colores. Bolsillos laterales y frontales. En tela Arciel Azul.</p><br>
+        <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
       </div>
     </div>
-<!--**** FIN DIV ALINEADOR ****-->
+  </div>
+  <div class="col">
+    <div class="card border-info mb-4" style="max-width: 20rem;">
+      <a href="jumperazul.html"><img src="img/modelo6.png" class="card-img-top" alt="guardapolvos-6-jumper-azul" style="max-width: 20rem; max-height: 20rem;" ></a>
+    <div class="card-body">
+      <h5 class="card-title">JUMPER AZUL</h5>
+      <p class="card-text">Jumper de tiras cortas con broches a presión. Bolsillos combinados y laterales. En tela de Arciel azul.</p><br>
+      <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
+    </div>
+  </div>
 </div>
+  <div class="col">
+      <div class="card border-info mb-4" style="max-width: 20rem;">
+        <a href="tiradores-azul.html"><img src="img/modelo8.png" class="card-img-top" alt="guardapolvos-8-tiradores-azul" style="max-width: 20rem; max-height: 20rem;"></a>
+      <div class="card-body">
+        <h5 class="card-title">TIRADORES AZUL</h5>
+        <p class="card-text">Con broches a presión y cierre frontal. Bolsillos combinados y laterales. Tela Arciel Azul.</p><br>
+        <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-info mb-4" style="max-width: 20rem;">
+      <a href="tiradores.html"><img src="img/modelo1.png" class="card-img-top" alt="guardapolvos-1-tiradores" style="max-width: 20rem; max-height: 20rem;"></a>
+    <div class="card-body">
+      <h5 class="card-title">TIRADORES</h5>
+      <p class="card-text">Con broches a presión y cierre frontal. Bolsillos combinados y laterales. En tela de Arciel blanco.</p>
+      <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card border-info mb-4" style="max-width: 20rem;">
+    <a href="clasico.html"><img src="img/modelo-10.png" class="card-img-top" alt="guardapolvos-10-clasico" style="max-width: 20rem; max-height: 20rem;"></a>
+  <div class="card-body">
+    <h5 class="card-title">CLASICO</h5>
+    <p class="card-text">Modelo Clasico, con cierres o broches a presión a elección. Bolsillos dobles personalizados.</p><br>
+    <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- FIN PRIMERA SECCION CARDS -->
+<!-- INICIO SEGUNDA SECCION CARDS-->
+
+<div class="container" align="center">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <div class="card border-info mb-4" style="max-width: 20rem;">
+        <a href="elisa.html"><img src="img/modelo5.png" class="card-img-top" alt="guardapolvos-5-elisa" style="max-width: 20rem;"></a>
+      <div class="card-body">
+        <h5 class="card-title">ELISA</h5>
+        <p class="card-text">Modelo combinado con cierres y cintas de colores. Bolsillos laterales y frontales. En tela Arciel blanco. </p>
+        <button type="button" class="btn btn-outline-secondary">Comprar</button> <a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-info mb-4" style="max-width: 20rem;">
+      <a href="tiradores.html"><img src="img/modelo3.png" class="card-img-top" alt="guardapolvos-6-tiradores" style="max-width: 20rem; max-height: 20rem;" ></a>
+    <div class="card-body">
+      <h5 class="card-title">TIRADORES </h5>
+      <p class="card-text">Con tirador del lado derecho y cierre frontal. Bolsillos combinados y laterales. En tela de arciel blanco.</p>
+      <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card border-info mb-4" style="max-width: 20rem;">
+    <a href="jumper.html"><img src="img/modelo-9.png" class="card-img-top" alt="guardapolvos-9-jumper" style="max-width: 20rem; max-height: 20rem;" ></a>
+  <div class="card-body">
+    <h5 class="card-title">JUMPER </h5>
+    <p class="card-text">Jumper de tiras cortas con broches a presión. Bolsillos combinados y laterales. Eh tela de Arciel blanco.</p>
+    <button type="button" class="btn btn-outline-secondary">Comprar</button><a href="#"><img src="img/shopping-cart.png" alt="cart" style="max-width:45px;"></a>
+  </div>
+</div>
+</div>
+ 
+</div>
+</section>
+<!--FIN SEGUNDA SECCION CARD -->
+    <hr>
+    
+    <!--**** FIN DIV ALINEADOR ****-->
+    </div>
 
 
       <!--INICIO FOOTER-->
@@ -161,7 +202,7 @@
                 <li><a href="https://walink.co/adbb51"><img src="img/logotipo-de-whatsapp.png" alt="whatsapp-icono" style="max-width:45px;"></a></li>
             </ul>
 
-             <a href="index.html#arriba"><img src="img/arrow-up.png" alt="arrow-up" style="max-width:45px;"></a>
+             <a href="productos.html#up"><img src="img/arrow-up.png" alt="arrow-up" style="max-width:45px;"></a>
              <br>
           <p>Copyright &copy;2022 <a href="https://improvola.github.io/tecno-e/">Tecno-E</a> | EMAE </p>
              
